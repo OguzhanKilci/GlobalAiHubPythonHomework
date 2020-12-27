@@ -1,0 +1,11 @@
+data1 = input("Please enter a string value: ")
+data2 = int(input("Please enter a integer value: "))
+data3 = float(input("Please enter a float value: "))
+data4 = complex(input("Please enter a complex value: "))
+data5 = input("Please enter a string value:  ")
+
+print("Your 1st value is ", data1 + " and it's ", type(data1))
+print(f"Your 2nd value is {data2} and it's {type(data2)}")
+print("Your 3rd value is {} and it's {}".format(data3, type(data3)))
+print(f"Your 4th value is {data4} and it's {type(data4)}")
+print(f"Your 4th value is {data5} and it's {type(data5)}")
